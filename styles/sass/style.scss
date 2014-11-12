@@ -28,4 +28,32 @@
 			padding : 0 35px;
 		}
 	}
+
+	.body {
+		text-align : center;
+
+		h1 {
+			color : #4b4b4b;
+			margin-bottom : 0;
+			font-size : 40px;
+		}
+		#p1 {
+			color : #4b4b4b;
+			margin-top : 5px;
+		}
+		#p2 {
+			color : #37713b;
+			font-size : 20px;
+			letter-spacing : 5px;
+		}
+		#video {
+			width : 500px;
+			height : 300px;
+			background-color : #4b4b4b;
+			margin : 0 auto;
+		}
+		#facebook {
+			margin-top : 30px;
+		}
+	}
 }

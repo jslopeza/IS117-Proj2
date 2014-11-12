@@ -21,3 +21,23 @@
       display: inline;
       color: white;
       padding: 0 35px; }
+  .container .body {
+    text-align: center; }
+    .container .body h1 {
+      color: #4b4b4b;
+      margin-bottom: 0;
+      font-size: 40px; }
+    .container .body #p1 {
+      color: #4b4b4b;
+      margin-top: 5px; }
+    .container .body #p2 {
+      color: #37713b;
+      font-size: 20px;
+      letter-spacing: 5px; }
+    .container .body #video {
+      width: 500px;
+      height: 300px;
+      background-color: #4b4b4b;
+      margin: 0 auto; }
+    .container .body #facebook {
+      margin-top: 30px; }
