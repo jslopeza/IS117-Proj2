@@ -1,0 +1,23 @@
+.temp {
+  border: 1px solid black; }
+
+.container {
+  width: 1024px;
+  height: 80px;
+  margin: 0 auto; }
+  .container #bbb {
+    margin-left: 400px; }
+  .container #callus {
+    padding-left: 20px; }
+  .container .navbar {
+    background-color: #37713b;
+    height: 50px;
+    margin-top: 20px; }
+  .container .nav-list {
+    padding-top: 15px;
+    text-align: center; }
+    .container .nav-list li {
+      list-style: none;
+      display: inline;
+      color: white;
+      padding: 0 35px; }
