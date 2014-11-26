@@ -41,3 +41,12 @@
       margin: 0 auto; }
     .container .body #facebook {
       margin-top: 30px; }
+    .container .body .text1 {
+      text-align: left; }
+      .container .body .text1 #text1-left {
+        width: 482px;
+        float: left;
+        padding-right: 30px; }
+      .container .body .text1 #text1-right {
+        width: 482px;
+        float: right; }
