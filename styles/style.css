@@ -1,52 +1,115 @@
-.temp {
-  border: 1px solid black; }
-
 .container {
   width: 1024px;
-  height: 80px;
-  margin: 0 auto; }
-  .container #bbb {
-    margin-left: 400px; }
-  .container #callus {
-    padding-left: 20px; }
-  .container .navbar {
-    background-color: #37713b;
-    height: 50px;
-    margin-top: 20px; }
-  .container .nav-list {
-    padding-top: 15px;
-    text-align: center; }
-    .container .nav-list li {
-      list-style: none;
-      display: inline;
-      color: white;
-      padding: 0 35px; }
-  .container .body {
-    text-align: center; }
-    .container .body h1 {
-      color: #4b4b4b;
-      margin-bottom: 0;
-      font-size: 40px; }
-    .container .body #p1 {
-      color: #4b4b4b;
-      margin-top: 5px; }
-    .container .body #p2 {
-      color: #37713b;
-      font-size: 20px;
-      letter-spacing: 5px; }
-    .container .body #video {
-      width: 500px;
-      height: 300px;
-      background-color: #4b4b4b;
-      margin: 0 auto; }
-    .container .body #facebook {
-      margin-top: 30px; }
-    .container .body .text1 {
-      text-align: left; }
-      .container .body .text1 #text1-left {
-        width: 482px;
-        float: left;
-        padding-right: 30px; }
-      .container .body .text1 #text1-right {
-        width: 482px;
-        float: right; }
+  height: 100%;
+  margin: 0 auto;
+}
+.container #bbb {
+  margin-left: 400px;
+}
+.container #callus {
+  padding-left: 20px;
+}
+.container .navbar {
+  background-color: #37713b;
+  height: 50px;
+  margin-top: 20px;
+}
+.container .nav-list {
+  padding-top: 15px;
+  text-align: center;
+}
+.container .nav-list li {
+  list-style: none;
+  display: inline;
+  color: white;
+  padding: 0 35px;
+}
+.container .body {
+  text-align: center;
+}
+.container .body h1 {
+  color: #4b4b4b;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+.container .body #p1 {
+  color: #4b4b4b;
+  margin-top: 5px;
+}
+.container .body #p2 {
+  color: #37713b;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.container .body #video {
+  width: 500px;
+  height: 300px;
+  background-color: #4b4b4b;
+  margin: 0 auto;
+}
+.container .body #facebook {
+  margin-top: 30px;
+}
+.container .body .text1 {
+  text-align: left;
+}
+.container .body .text1 #text1-left {
+  width: 482px;
+  float: left;
+  padding-left: 30px;
+  color: #6c7879;
+}
+.container .body .text1 #text1-left h5 {
+  color: black;
+}
+.container .body .text1 #text2-right {
+  width: 482px;
+  float: right;
+}
+.container .body .text1 #text2-right ul li {
+  padding-bottom: 6px;
+  color: #6c7879;
+}
+.container .body .table {
+  margin-bottom: 40px;
+}
+.container .body .table table {
+  padding-left: 10px;
+  width: 1000px;
+}
+.container .body .table table thead {
+  background-color: #6c7879;
+}
+.container .body .table table thead th {
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 7px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
+.container .body .table table tbody {
+  background-color: #f5f5f5;
+}
+.container .body .table table tbody td {
+  height: 40px;
+  color: #6c7879;
+}
+
+.text2 {
+  clear: both;
+  background-color: #eaedf2;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+.text2 .heating-heading {
+  color: #b02621;
+  letter-spacing: 6px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  padding: 20px 0;
+}
+.text2 .heating-text {
+  color: #6c7879;
+}
